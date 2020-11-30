@@ -1,0 +1,36 @@
+{
+  "name": "blog",
+  "version": "0.0.1",
+  "description": "A Quasar Framework app",
+  "productName": "Lava",
+  "cordovaId": "org.cordova.quasar.app",
+  "capacitorId": "",
+  "author": "cailuming <1550378369@qq.com>",
+  "private": true,
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.0.0",
+    "@vue/composition-api": "^0.5.0",
+    "axios": "^0.18.1",
+    "eruda": "^2.3.3",
+    "jpeg-js": "^0.4.0",
+    "quasar": "^1.9.5",
+    "vconsole": "^3.3.4",
+    "vue-i18n": "^8.0.0"
+  },
+  "devDependencies": {
+    "@quasar/app": "^1.6.2",
+    "@types/node": "^10.17.15",
+    "vue2-ace-editor": "0.0.15"
+  },
+  "engines": {
+    "node": ">= 10.18.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  },
+  "browserslist": [
+    "last 1 version, not dead, ie >= 11"
+  ]
+}
